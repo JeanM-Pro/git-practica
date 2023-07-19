@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(12, 26, 158);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  margin-top: 24px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin: 32px 0;
+}
+
+.form-container input {
+  width: 240px;
+  height: 30px;
+  border-radius: 16px;
+  padding: 0 8px;
+}
+
+.form-container button {
+  height: 30px;
+  padding: 0 16px;
+  border-radius: 16px;
+}
+
+.tarjetas-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
