@@ -77,6 +77,11 @@ h5 {
   font-size: larger;
 }
 
+button:hover{
+ background-color: beige;
+ cursor: pointer;
+  
+}
 .card-body {
   align-items: center;
   text-align: center;
