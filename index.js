@@ -37,9 +37,9 @@ function mostrarTarjetas() {
 
   ciudades.forEach((datos) => {
     const tarjeta = `
-      <div class="container">
+      <div class="container animate__animated animate__fadeInDown" >
         <div class="imagen"><span class="valor">${datos.temperatura.toFixed(
-          2
+          
         )}°C</span></div>
         <div class="card-body">
           <h5 class="card-title"> ${datos.ciudad
